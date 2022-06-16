@@ -28,7 +28,7 @@ Type the following in a terminal window to open the autostart text file
 "sudo nano /etc/xdg/lxsession/LXDE-pi/autostart"
 
 add this line in the end of the autostart document
-'''@python /home/air/sound_looper.py''' (correct if you changed the username)
+```@python /home/air/sound_looper.py``` (correct if you changed the username)
 
 press "ctrl+x" to exit followed by "shift+y" to save
 
