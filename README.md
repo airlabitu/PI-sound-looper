@@ -1,13 +1,11 @@
 # PI-sound-looper
+Loops an .wav audio file on a USB drive from a Raspberry Pi.
 
-Loops an .wav audio file on a Raspberry Pi using Python and autostart
 
 ## INSTALL PYTHON MODULES
-
 Make sure you have the following two modules. They should be preinstalled with the Raspberry Pi OS.
 **time**
 **pygame**
-
 
 
 ## ADD SOUND_LOOPER
