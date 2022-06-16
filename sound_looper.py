@@ -12,3 +12,5 @@ while pygame.mixer.music.get_busy():
     
 
 # https://stackoverflow.com/questions/62853263/pygame-sound-when-started-from-terminal-not-from-nodered
+
+# https://www.instructables.com/Syncing-Folders-With-Python/
