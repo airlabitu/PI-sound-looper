@@ -3,9 +3,10 @@ Loops an .wav audio file on a USB drive from a Raspberry Pi.
 
 
 ## INSTALL PYTHON MODULES
-Make sure you have the following two modules. They should be preinstalled with the Raspberry Pi OS.
-**time**
-**pygame**
+Make sure you have the following two modules.
+**time**<br>
+**pygame**<br>
+They should be preinstalled with the Raspberry Pi OS.
 
 
 ## ADD SOUND_LOOPER
@@ -24,14 +25,14 @@ Type the following in a terminal window to open the autostart text file
 add this line in the end of the autostart document
 ```@python /home/air/sound_looper.py``` (correct if you changed the username)
 
-press **ctrl+x** to exit followed by **shift+y** to save.
+Press **ctrl+x** to exit followed by **shift+y** to save.
 
 
 ## SETUP SOUND DEVICE
 open a terminal window and type
-```sudo raspi-config``` to open the system settings
+```sudo raspi-config``` to open the system settings.
 
-choose **System options** followed by **Audio**. 
+Choose **System options** followed by **Audio**. 
 Then choose the sound device you would like the audio to use. In our case we are using a USB sound interface, it is called **USB Audio** in the list.
 
 
