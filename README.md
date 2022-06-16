@@ -3,7 +3,7 @@ Loops an .wav audio file on a USB drive from a Raspberry Pi.
 
 
 ## INSTALL PYTHON MODULES
-Make sure you have the following two modules.
+Make sure you have the following two modules.<br>
 **time**<br>
 **pygame**<br>
 They should be preinstalled with the Raspberry Pi OS.
@@ -29,7 +29,7 @@ Press **ctrl+x** to exit followed by **shift+y** to save.
 
 
 ## SETUP SOUND DEVICE
-open a terminal window and type
+Open a Terminal window and type
 ```sudo raspi-config``` to open the system settings.
 
 Choose **System options** followed by **Audio**. 
